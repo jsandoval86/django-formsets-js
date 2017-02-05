@@ -1,0 +1,20 @@
+Django Formset
+
+Django formset is a way to handle many forms of the same type in the same template
+
+This code help us to build dynamic formsets in the template using
+Vanilla JavaScript
+
+what mean dynamic formsets?
+
+- we can add new form
+- we can delete form
+in one second.
+
+only applying
+
+form = document.querySelector('form-content')
+f = new Formset(form)
+f.create()
+
+and the formset is ready.
